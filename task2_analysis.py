@@ -14,3 +14,7 @@ for i in range(len(income)):
     print(f"Department {i + 1}:")
     print(f"  Average monthly income: {average_income[i]:.2f}")
     print(f"  Total income: {total_income[i]:.2f}")
+print("\nOverall statistics:")
+print(f"Highest average monthly income: {np.max(average_income):.2f}")
+print(f"Lowest average monthly income: {np.min(average_income):.2f}")
+
